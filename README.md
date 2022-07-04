@@ -1,5 +1,4 @@
 # AI4ENG
-Proyecto Para AI4ENG:
 
 Proyecto Análisis de Datos para Predicción de Patologías Asociadas a la Tiroides.
 
