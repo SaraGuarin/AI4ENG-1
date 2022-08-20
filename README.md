@@ -19,6 +19,8 @@ Los datos del proyecto vienen de La competición Kaggle Thyroid Disease Data (ht
 
 **Es necesario entender que toca ejecutar una linea de código y subir el kaggle.json desde nuestros computadores para poder hacer la descargar del dataset. Este kaggle.json es el token personal de cada uno.**
 
+Posteriormente a esto, procedemos a ejecutar los siguientes comandos:
+
 !kaggle datasets download -d emmanuelfwerr/thyroid-disease-data
 
 !unzip thyroid-disease-data.zip
