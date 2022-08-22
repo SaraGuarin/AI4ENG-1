@@ -12,11 +12,13 @@ Proyecto Análisis de Datos para Predicción de Patologías Asociadas a la Tiroi
   
   ## Dataset:
   
-Los datos del proyecto vienen de La competición Kaggle Thyroid Disease Data (https://www.kaggle.com/datasets/emmanuelfwerr/thyroid-disease-data), y se pueden hacer disponibles ejecutando desde cualquier notebook en Colab los siguientes comandos:
+Los datos del proyecto vienen de la competición Kaggle Thyroid Disease Data (https://www.kaggle.com/datasets/emmanuelfwerr/thyroid-disease-data), y se pueden hacer disponibles ejecutando desde cualquier notebook en Colab los siguientes comandos:
 
-**Es necesario entender que toca ejecutar una linea de código y subir el kaggle.json desde nuestros computadores para poder hacer la descargar del dataset. Este kaggle.json es el token personal de cada uno.**
+from google.colab import files
 
-Posteriormente a esto, procedemos a ejecutar los siguientes comandos:
+files.upload() **En este paso el usuario debe subir su kaggle.json que descarga desde la página de kaggle, para este proyecto el usuario no debe subir ningún kaggle.json ya que se dejo dentro del notebook en colab como una variable*
+
+!mkdir -p ~/.kaggle/ && mv kaggle.json ~/.kaggle/ && chmod 600 ~/.kaggle/kaggle.json
 
 !kaggle datasets download -d emmanuelfwerr/thyroid-disease-data
 
