@@ -27,3 +27,8 @@ files.upload() **En este paso el usuario debe subir su kaggle.json que descarga 
 !kaggle datasets download -d emmanuelfwerr/thyroid-disease-data
 
 !unzip thyroid-disease-data.zip
+
+## Videos
+
+- [Video primera entrega](https://youtu.be/comumN-V8gY)
+
