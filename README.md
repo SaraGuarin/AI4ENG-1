@@ -27,4 +27,4 @@ files.upload() **En este paso el usuario debe subir su kaggle.json que descarga 
 ## Videos
 
 - [Video primera entrega](https://youtu.be/comumN-V8gY)
-
+- [Video segunda entrega](https://youtu.be/z8TtEBuJhBQ)
